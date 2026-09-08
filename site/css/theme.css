@@ -1,0 +1,18 @@
+:root {
+  color-scheme: light dark;
+  --bg: #fdfdfd;
+  --fg: #16181d;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #101216; --fg: #e8eaed; }
+}
+html[data-theme="light"] { --bg: #fdfdfd; --fg: #16181d; }
+html[data-theme="dark"]  { --bg: #101216; --fg: #e8eaed; }
+body { background: var(--bg); color: var(--fg); }
+#theme-toggle {
+  background: transparent;
+  border: 1px solid currentColor;
+  color: inherit;
+  border-radius: 6px;
+  padding: 0.25rem 0.6rem;
+}
