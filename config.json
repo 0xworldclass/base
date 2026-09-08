@@ -1,0 +1,14 @@
+{
+  "name": "base",
+  "owner": "0xworldclass",
+  "visibility": "public",
+  "principles": [
+    "public by default",
+    "small steady steps",
+    "show the work"
+  ],
+  "milestone": {
+    "public_commits": "100+",
+    "note": "Only public commits are tracked; private repo commits cannot be counted."
+  }
+}
