@@ -1,0 +1,22 @@
+body { min-height: 100vh; display: flex; flex-direction: column; }
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  flex: 1;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(127,127,127,0.35);
+}
+.topbar nav { display: flex; gap: 1rem; }
+.topbar .brand { font-weight: 700; margin-right: auto; }
+footer {
+  border-top: 1px solid rgba(127,127,127,0.35);
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
