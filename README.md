@@ -21,6 +21,14 @@ shipped incrementally, out in the open.
 2. **Small, steady steps** — many small commits over few giant ones.
 3. **Show the work** — the history is the documentation.
 
+## Status
+
+- ✅ Public repository
+- ✅ 100+ public commits — building in the open consistently
+- ℹ️ Only public commits are tracked; private repo commits cannot be counted
+
+Run `./scripts/stats.sh` for live numbers.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
