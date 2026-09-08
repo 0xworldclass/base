@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>base — building in the open</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand">base</span>
+    <nav>
+      <a href="pages/builds.html">Builds</a>
+      <a href="pages/about.html">About</a>
+    </nav>
+    <button id="theme-toggle" type="button">Toggle theme</button>
+  </header>
+  <main>
+    <h1>Building in the open, consistently.</h1>
+    <p class="lead">
+      Every change here is a public commit. The history is the proof of work.
+    </p>
+    <section id="counter">
+      <p>Public commits so far: <strong id="commit-count">100+</strong></p>
+    </section>
+    <section>
+      <h2>Principles</h2>
+      <ul>
+        <li>Public by default.</li>
+        <li>Small, steady steps.</li>
+        <li>Show the work.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>MIT licensed · <a href="https://github.com/0xworldclass/base">github.com/0xworldclass/base</a></p>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/theme-toggle.js"></script>
+  <script src="js/build-counter.js"></script>
+</body>
+</html>
