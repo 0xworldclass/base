@@ -2,7 +2,7 @@
 
 > **Building in the open, consistently.** 100+ public commits and counting.
 
-`base` is a public, open-build workspace. Every change happens in public commits,
+`base` is a public, open-build workspace by 0xworldclass. Every change happens in public commits,
 so the history itself is the proof of work: ideas, docs, scripts, and site assets
 shipped incrementally, out in the open.
 
